@@ -42,7 +42,7 @@ export default class TopSection extends React.Component {
 				<Reference>
 					{({ ref }) => (
 						<button className="btn btn-select-location" ref={ref} onClick={this.onToggleSelectLocation.bind(this)}>
-							Select Location
+							Change Location
 						</button>
 					)}
 				</Reference>
